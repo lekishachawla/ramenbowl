@@ -1,0 +1,143 @@
+[gd_scene format=3 uid="uid://dg5mers85uhay"]
+
+[ext_resource type="Script" uid="uid://b5qwem0cbn5kp" path="res://scripts/game.gd" id="1_uwrxv"]
+[ext_resource type="AudioStream" uid="uid://5dfwdr3b0pn0" path="res://assets/backgrounds/zephiramusic-lofi-gaming-606302.mp3" id="2_lnu2h"]
+[ext_resource type="AudioStream" uid="uid://bd2slsvg5um5u" path="res://assets/backgrounds/universfield-computer-mouse-click-352734.mp3" id="3_lbhrr"]
+
+[node name="game" type="Control" unique_id=1746464294]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_uwrxv")
+
+[node name="gamebackground" type="ColorRect" parent="." unique_id=1603617376]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="orderlabel" type="Label" parent="." unique_id=59370116]
+layout_mode = 0
+offset_left = 498.0
+offset_top = 75.0
+offset_right = 776.0
+offset_bottom = 297.0
+theme_override_font_sizes/font_size = 30
+text = "CUSTOMER ORDER 
+TONKUTSO RAMEN
+BROTH : PORK
+NOODLES : THICK
+TOPPING : EGG"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ingredients title" type="Label" parent="." unique_id=1882969347]
+layout_mode = 0
+offset_left = 486.0
+offset_top = 327.0
+offset_right = 800.0
+offset_bottom = 372.0
+theme_override_font_sizes/font_size = 32
+text = "BUILD YOUR RAMEN"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Noodlesbutton" type="Button" parent="." unique_id=651534382]
+layout_mode = 0
+offset_left = 140.0
+offset_top = 430.0
+offset_right = 320.0
+offset_bottom = 490.0
+text = "NOODLES"
+
+[node name="Toppingsbutton" type="Button" parent="." unique_id=1516408070]
+layout_mode = 0
+offset_left = 958.0
+offset_top = 424.0
+offset_right = 1138.0
+offset_bottom = 484.0
+text = "TOPPINGS"
+
+[node name="Brothbutton" type="Button" parent="." unique_id=2131789734]
+layout_mode = 0
+offset_left = 561.0
+offset_top = 434.0
+offset_right = 741.0
+offset_bottom = 494.0
+text = "BROTH"
+
+[node name="Scorelabel" type="Label" parent="." unique_id=1580409471]
+layout_mode = 0
+offset_left = 54.0
+offset_top = 116.0
+offset_right = 181.0
+offset_bottom = 155.0
+theme_override_font_sizes/font_size = 28
+text = "SCORE : 0"
+
+[node name="Liveslabel" type="Label" parent="." unique_id=287320701]
+layout_mode = 0
+offset_left = 29.0
+offset_top = 28.0
+offset_right = 123.0
+offset_bottom = 67.0
+theme_override_colors/font_color = Color(0.9418627, 0.7630972, 0.95398146, 1)
+theme_override_font_sizes/font_size = 28
+text = "LIVES : "
+
+[node name="Servebutton" type="Button" parent="." unique_id=262063616]
+layout_mode = 0
+offset_left = 548.0
+offset_top = 532.0
+offset_right = 739.0
+offset_bottom = 579.0
+rotation = -0.00048094773
+theme_override_font_sizes/font_size = 28
+text = "SERVE ORDER"
+
+[node name="Salvagebutton" type="Button" parent="." unique_id=2034199689]
+layout_mode = 0
+offset_left = 530.0
+offset_top = 632.0
+offset_right = 760.0
+offset_bottom = 679.0
+theme_override_font_sizes/font_size = 28
+text = "SALVAGE ORDER"
+
+[node name="GameOverLabel" type="Label" parent="." unique_id=1267545634]
+visible = false
+layout_mode = 0
+offset_left = 374.0
+offset_top = 344.0
+offset_right = 674.0
+offset_bottom = 413.0
+theme_override_font_sizes/font_size = 50
+text = "GAME OVER!"
+
+[node name="FinalScoreLabel" type="Label" parent="." unique_id=1919001580]
+visible = false
+layout_mode = 0
+offset_left = 400.0
+offset_top = 355.0
+offset_right = 629.0
+offset_bottom = 442.0
+theme_override_font_sizes/font_size = 30
+text = "FINAL SCORE : 0
+"
+
+[node name="RestartButton" type="Button" parent="." unique_id=1057237140]
+visible = false
+layout_mode = 0
+offset_left = 461.0
+offset_top = 508.0
+offset_right = 614.0
+offset_bottom = 551.0
+theme_override_font_sizes/font_size = 25
+text = "PLAY AGAIN"
+
+[node name="BackgroundMusic" type="AudioStreamPlayer" parent="." unique_id=809583311]
+stream = ExtResource("2_lnu2h")
+
+[node name="SoundEffects" type="AudioStreamPlayer" parent="." unique_id=1901001255]
+stream = ExtResource("3_lbhrr")
