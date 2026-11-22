@@ -1,2 +1,3 @@
 # ramenbowl
-an amazingly amazing game about ramen which is very amazing
+a ramen making game where you make ramen for your customers before their patience runs out.
+
