@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cg3fuvwf8muoa"
-path="res://.godot/imported/botón_para_juegos_de_8_bits__vector_de_inicio_inicial-removebg-preview.png-2f2c2fc47a8aaa417f1c9509a15abe78.ctex"
+uid="uid://dbmg8s5aaywor"
+path="res://.godot/imported/Bowl_Palsby-removebg-preview.png-6378e154b129e32e34d72935a93ad79f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/buttons/botón_para_juegos_de_8_bits__vector_de_inicio_inicial-removebg-preview.png"
-dest_files=["res://.godot/imported/botón_para_juegos_de_8_bits__vector_de_inicio_inicial-removebg-preview.png-2f2c2fc47a8aaa417f1c9509a15abe78.ctex"]
+source_file="res://assets/ingredients/Bowl_Palsby-removebg-preview.png"
+dest_files=["res://.godot/imported/Bowl_Palsby-removebg-preview.png-6378e154b129e32e34d72935a93ad79f.ctex"]
 
 [params]
 
